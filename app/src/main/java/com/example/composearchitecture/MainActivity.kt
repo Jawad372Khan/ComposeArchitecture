@@ -12,9 +12,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
-import com.example.composearchitecture.ui.navigation.SetUpNavGraph
-import com.example.composearchitecture.ui.theme.AppTheme
-import com.example.composearchitecture.ui.theme.util.mainScaffoldPadding
+import com.example.composearchitecture.ui.presentation.navigation.SetUpNavGraph
+import com.example.composearchitecture.ui.presentation.theme.AppTheme
+import com.example.composearchitecture.ui.presentation.theme.util.mainScaffoldPadding
 import org.koin.compose.KoinContext
 
 class MainActivity : ComponentActivity() {

@@ -1,14 +1,14 @@
-package com.example.composearchitecture.ui.theme.typography
+package com.example.composearchitecture.ui.presentation.theme.typography
 
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.TextStyle
-import com.example.composearchitecture.ui.theme.extensions.textSize
-import com.example.composearchitecture.ui.theme.font.figtreeBold
-import com.example.composearchitecture.ui.theme.font.figtreeMedium
-import com.example.composearchitecture.ui.theme.font.figtreeRegular
-import com.example.composearchitecture.ui.theme.font.figtreeSemiBold
+import com.example.composearchitecture.ui.presentation.theme.extensions.textSize
+import com.example.composearchitecture.ui.presentation.theme.font.figtreeBold
+import com.example.composearchitecture.ui.presentation.theme.font.figtreeMedium
+import com.example.composearchitecture.ui.presentation.theme.font.figtreeRegular
+import com.example.composearchitecture.ui.presentation.theme.font.figtreeSemiBold
 
 
 private val parentStyle = TextStyle(

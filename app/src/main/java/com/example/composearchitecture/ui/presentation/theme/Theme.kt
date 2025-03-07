@@ -1,4 +1,4 @@
-package com.example.composearchitecture.ui.theme
+package com.example.composearchitecture.ui.presentation.theme
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -8,15 +8,15 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.platform.LocalConfiguration
-import com.example.composearchitecture.ui.theme.color.DarkColorPalette
-import com.example.composearchitecture.ui.theme.color.LightColorPalette
-import com.example.composearchitecture.ui.theme.color.MyColors
-import com.example.composearchitecture.ui.theme.extensions.screenHeight
-import com.example.composearchitecture.ui.theme.extensions.screenWidth
-import com.example.composearchitecture.ui.theme.shapes.CustomShapes
-import com.example.composearchitecture.ui.theme.shapes.MyShapes
-import com.example.composearchitecture.ui.theme.typography.CustomTypography
-import com.example.composearchitecture.ui.theme.typography.MyTypography
+import com.example.composearchitecture.ui.presentation.theme.color.DarkColorPalette
+import com.example.composearchitecture.ui.presentation.theme.color.LightColorPalette
+import com.example.composearchitecture.ui.presentation.theme.color.MyColors
+import com.example.composearchitecture.ui.presentation.theme.extensions.screenHeight
+import com.example.composearchitecture.ui.presentation.theme.extensions.screenWidth
+import com.example.composearchitecture.ui.presentation.theme.shapes.CustomShapes
+import com.example.composearchitecture.ui.presentation.theme.shapes.MyShapes
+import com.example.composearchitecture.ui.presentation.theme.typography.CustomTypography
+import com.example.composearchitecture.ui.presentation.theme.typography.MyTypography
 
 private val LocalColors = staticCompositionLocalOf { LightColorPalette }
 private val LocalTypography = staticCompositionLocalOf { CustomTypography }

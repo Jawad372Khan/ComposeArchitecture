@@ -1,4 +1,4 @@
-package com.example.composearchitecture.ui.theme.util
+package com.example.composearchitecture.ui.presentation.theme.util
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable

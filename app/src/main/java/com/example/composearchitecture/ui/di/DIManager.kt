@@ -17,6 +17,7 @@ class DIManager private constructor(private val application: Application) {
         startKoin {
             androidLogger()
             androidContext(application)
+            modules(appDIModule)
         }
     }
 }

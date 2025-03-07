@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.composearchitecture"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.composearchitecture"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -76,6 +76,4 @@ dependencies {
     implementation (libs.androidx.navigation.compose)
 
     implementation (libs.kotlinx.serialization.json)
-
-
 }

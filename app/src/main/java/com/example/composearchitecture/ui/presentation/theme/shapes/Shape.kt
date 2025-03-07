@@ -1,9 +1,9 @@
-package com.example.composearchitecture.ui.theme.shapes
+package com.example.composearchitecture.ui.presentation.theme.shapes
 
 import androidx.compose.foundation.shape.CornerBasedShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
-import com.example.composearchitecture.ui.theme.extensions.sdpC
+import com.example.composearchitecture.ui.presentation.theme.extensions.sdpC
 
 data class MyShapes(
     val shapes: Shapes,

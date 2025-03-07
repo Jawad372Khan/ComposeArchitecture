@@ -1,4 +1,4 @@
-package com.example.composearchitecture.ui.theme.extensions
+package com.example.composearchitecture.ui.presentation.theme.extensions
 
 import android.annotation.SuppressLint
 import androidx.compose.runtime.Composable
@@ -7,7 +7,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.composearchitecture.ui.theme.config.ThemeConfig
+import com.example.composearchitecture.ui.presentation.theme.config.ThemeConfig
 import kotlin.math.sqrt
 
 
