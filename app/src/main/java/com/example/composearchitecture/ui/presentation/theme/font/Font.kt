@@ -4,7 +4,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import com.example.composearchitecture.R
 
-val figtreeBold = FontFamily(Font(R.font.figtree_bold))
-val figtreeMedium = FontFamily(Font(R.font.figtree_medium))
-val figtreeRegular = FontFamily(Font(R.font.figtree_regular))
-val figtreeSemiBold = FontFamily(Font(R.font.figtree_semibold))
+val poppinsBold = FontFamily(Font(R.font.poppins_bold))
+val poppinsMedium = FontFamily(Font(R.font.poppins_medium))
+val poppinsRegular = FontFamily(Font(R.font.poppins_regular))
+val poppinsSemiBold = FontFamily(Font(R.font.poppins_semibold))

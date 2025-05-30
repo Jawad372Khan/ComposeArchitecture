@@ -5,20 +5,20 @@ import androidx.compose.material3.Typography
 import androidx.compose.ui.text.PlatformTextStyle
 import androidx.compose.ui.text.TextStyle
 import com.example.composearchitecture.ui.presentation.theme.extensions.textSize
-import com.example.composearchitecture.ui.presentation.theme.font.figtreeBold
-import com.example.composearchitecture.ui.presentation.theme.font.figtreeMedium
-import com.example.composearchitecture.ui.presentation.theme.font.figtreeRegular
-import com.example.composearchitecture.ui.presentation.theme.font.figtreeSemiBold
+import com.example.composearchitecture.ui.presentation.theme.font.poppinsBold
+import com.example.composearchitecture.ui.presentation.theme.font.poppinsMedium
+import com.example.composearchitecture.ui.presentation.theme.font.poppinsRegular
+import com.example.composearchitecture.ui.presentation.theme.font.poppinsSemiBold
 
 
 private val parentStyle = TextStyle(
     platformStyle = PlatformTextStyle()
 )
 
-private val fontBoldStyle = parentStyle.copy(fontFamily = figtreeBold)
-private val fontSemiBoldStyle = parentStyle.copy(fontFamily = figtreeSemiBold)
-private val fontMediumStyle = parentStyle.copy(fontFamily = figtreeMedium)
-private val fontRegularStyle = parentStyle.copy(fontFamily = figtreeRegular)
+private val fontBoldStyle = parentStyle.copy(fontFamily = poppinsBold)
+private val fontSemiBoldStyle = parentStyle.copy(fontFamily = poppinsSemiBold)
+private val fontMediumStyle = parentStyle.copy(fontFamily = poppinsMedium)
+private val fontRegularStyle = parentStyle.copy(fontFamily = poppinsRegular)
 
 val CustomTypography = MyTypography(
     typography = Typography(),

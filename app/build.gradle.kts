@@ -20,6 +20,7 @@ android {
             useSupportLibrary = true
         }
     }
+   
 
     buildTypes {
         release {
@@ -76,4 +77,11 @@ dependencies {
     implementation (libs.androidx.navigation.compose)
 
     implementation (libs.kotlinx.serialization.json)
+
+//    implementation(libs.google.api.client.android)
+//    implementation(libs.google.api.services.gmail)
+//    implementation(libs.google.oauth.client.jetty)
+
+    implementation (libs.commons.email)
+
 }

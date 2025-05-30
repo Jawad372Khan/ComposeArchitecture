@@ -72,7 +72,7 @@ fun BaseScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(AppColor.white)
+                .background(AppColor.bgColor)
                 .pointerInput(Unit) {
                     detectTapGestures(
                         onPress = {

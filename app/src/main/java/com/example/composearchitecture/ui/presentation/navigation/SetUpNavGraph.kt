@@ -8,14 +8,12 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.composearchitecture.ui.presentation.display.splash.SplashScreen
-import com.example.composearchitecture.ui.presentation.display.splash.SplashScreenViewModel
-import org.koin.androidx.compose.koinViewModel
+import com.example.composearchitecture.ui.presentation.display.register.RegistrationScreen
 
 @Composable
 fun SetUpNavGraph(
     navController: NavHostController = rememberNavController(),
-    startDestination: Any = Screens.SplashScreen
+    startDestination: Any = Screens.RegistrationScreen
 ) {
     NavHost(
         modifier = Modifier,
@@ -46,15 +44,8 @@ fun SetUpNavGraph(
             )
         }
     ) {
-        composable<Screens.SplashScreen> {
-            val viewModel: SplashScreenViewModel = koinViewModel()
-            SplashScreen(
-                navigation = {
-                    handleNavigation(it, navController)
-                },
-                state = viewModel.state,
-                actionEvent = viewModel::actionEvent,
-            )
+        composable<Screens.RegistrationScreen> {
+            RegistrationScreen()
         }
     }
 }
